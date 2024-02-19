@@ -1,0 +1,57 @@
+<section class="login">
+    <div class="header-registro">
+        <mat-icon class="icon-back" (click)="regresar()">arrow_back</mat-icon>
+        <mat-icon class="icon-forward">arrow_forward</mat-icon>
+    </div>
+    <div class="wrapper">
+        <div class="section-left">
+            <img src="/assets/images/FCCBuap.png" class="logo-fcc">
+        </div>
+        <div class="section-right">
+            <section>
+                <form>
+                    <div class="mb-3">
+                        <h1 class="title">Registro</h1>
+                        <form class="row g-3">
+                            <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Correo</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Correo Institucional">
+                            </div>
+                            <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Contraseña 8-12 digitos">
+                            </div>
+                            <!-- <div class="col-md-6">
+                            <label for="inputAddress" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Nombre">
+                            </div>
+                            <div class="col-md-6">
+                            <label for="inputAddress2" class="form-label">Apellidos</label>
+                            <input type="text" class="form-control" id="inputAddress2" placeholder="Apellidos">
+                            </div>
+                            <div class="col-md-6">
+                            <label for="inputCity" class="form-label">Carrera</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="Carrera">
+                            </div>
+                            <div class="col-md-6">
+                            <label for="inputState" class="form-label">Facultad</label>
+                            <select id="inputState" class="form-select">
+                                <option selected>Elegir...</option>
+                                <option>...</option>
+                            </select>
+                            </div>
+                            <div class="col-md-6">
+                            <label for="inputZip" class="form-label">Matricula</label>
+                            <input type="text" class="form-control" id="inputZip" placeholder="Matricula">
+                            </div> -->
+                            <div class="col-12">
+                            <button type="submit" class="btn btn-primary" (click)="irLogin()">Registrar</button>
+                            </div>
+                      </form>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+</section>
+
